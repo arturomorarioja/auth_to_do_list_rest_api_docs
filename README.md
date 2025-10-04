@@ -17,7 +17,9 @@ An API key `X-API-Key` with the hardcoded value `mysecureapikey123` is expected.
 |DELETE|/todos/:id||
 
 ### API Documentation
-Available at `<SERVER_URL>/docs`.
+Available at `<SERVER_URL>/docs`. The specification is both in JSON and YAML formats.
+
+A Postman collection and environment to test the API is included.
 
 ## Tools
 Flask / Python

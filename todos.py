@@ -10,8 +10,10 @@ from flask_swagger_ui import get_swaggerui_blueprint
 
 app = Flask(__name__)
 
+# Either the YAML or the JSON version can be used
 SWAGGER_URL = '/docs'
-API_URL = '/static/openapi.json'
+API_URL = '/static/openapi.yml'
+# API_URL = '/static/openapi.json'
 
 swagger_ui_blueprint = get_swaggerui_blueprint(SWAGGER_URL, API_URL)
 app.register_blueprint(swagger_ui_blueprint, url_prefix=SWAGGER_URL)
