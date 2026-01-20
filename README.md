@@ -2,6 +2,7 @@
 REST API example with API key and OpenAPI documentation.
 
 ## Usage
+`python todos.py`. The API will run at `http://localhost:5000`.
 
 ### Authentication
 An API key `X-API-Key` with the hardcoded value `mysecureapikey123` is expected.
